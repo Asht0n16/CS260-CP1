@@ -6,13 +6,8 @@
 .Legend-of-Lex-5-hex { color: #E0DB38; }
 .Legend-of-Lex-6-hex { color: #706C14; }
 
-html {
-  height: 100%;
-}
-
 body {
   background-color: #eefbf1;
-  height: 100%;
 }
 
 .navbar-dark {
@@ -51,11 +46,13 @@ h1 {
   width: 95%;
   height: 100%;
   margin: 0 auto;
+  padding-bottom: 50px;
   display: block;
 }
 
 .description {
-  width: 60%;
+  padding: 1.5rem;
+  margin: 0px;
 }
 
 .home-description {
@@ -82,4 +79,36 @@ h1 {
 .footer-link:hover {
   text-decoration: none;
   color: #E6E27E;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 950px) {
+  .description {
+    width: 100%;
+  }
+
+  .home-pic {
+    width: 340px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 951px) {
+  .description {
+    width: 60%;
+    float: left;
+  }
+
+  .home-pic {
+    width: 33%;
+    display: block;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+  .dummy {
+    clear: both;
+  }
 }
