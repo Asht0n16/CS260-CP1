@@ -54,7 +54,17 @@ h1 {
   margin: 0px;
 }
 
+.about {
+  padding: 1.5rem;
+  margin: 0px;
+}
+
 .home-description {
+  text-indent: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.about-text {
   text-indent: 30px;
   font-family: 'Ubuntu', sans-serif;
 }
@@ -91,6 +101,16 @@ h1 {
     margin: 0 auto;
     padding-left: 10%;
   }
+
+  .about {
+    width: 100%;
+  }
+
+  .author-pic {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 10%;
+  }
 }
 
 /* Desktop Styles */
@@ -106,6 +126,17 @@ h1 {
     float: right;
     margin-top: 5rem;
     margin-right: 2rem;
+  }
+
+  .about {
+    width: 60%;
+    float: right;
+  }
+
+  .author-pic {
+    width: 33%;
+    float: left;
+    margin-left: 2rem;
   }
 
   .dummy {
