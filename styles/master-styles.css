@@ -1,0 +1,85 @@
+/* Color Theme Swatches in Hex */
+.Legend-of-Lex-1-hex { color: #1D7341; }
+.Legend-of-Lex-2-hex { color: #289E32; }
+.Legend-of-Lex-3-hex { color: #458729; }
+.Legend-of-Lex-4-hex { color: #9FCC33; }
+.Legend-of-Lex-5-hex { color: #E0DB38; }
+.Legend-of-Lex-6-hex { color: #706C14; }
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #eefbf1;
+  height: 100%;
+}
+
+.navbar-dark {
+  background-color: #1D7341!important;
+  border-bottom: 2px solid #E0DB38;
+}
+
+.navbar-brand {
+  color: #E0DB38!important;
+  font-family: 'Uncial Antiqua';
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow:
+    -1px 2px #706C14,
+    1px 2px #706C14,
+    1px -2px #706C14,
+    -1px -2px #706C14;
+}
+
+h1 {
+  color: #E0DB38!important;
+  font-family: 'Uncial Antiqua';
+  font-weight: bold;
+  font-size: 3rem;
+  text-shadow:
+    -1px 1px #706C14,
+    1px 1px #706C14,
+    1px -1px #706C14,
+    -1px -1px #706C14;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  background-color: #CED5BF;
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.description {
+  width: 60%;
+}
+
+.home-description {
+  text-indent: 30px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.footer {
+  background-color: #458729;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #E0DB38;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+  color: #E6E27E;
+}
