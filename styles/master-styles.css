@@ -47,7 +47,6 @@ h1 {
   height: 100%;
   margin: 0 auto;
   padding-bottom: 50px;
-  display: block;
 }
 
 .description {
@@ -88,8 +87,9 @@ h1 {
   }
 
   .home-pic {
-    width: 340px;
+    width: 90%;
     margin: 0 auto;
+    padding-left: 10%;
   }
 }
 
