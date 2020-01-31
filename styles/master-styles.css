@@ -105,6 +105,16 @@ h2 {
   padding: 1.5rem;
 }
 
+.reviews {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  margin: 2rem;
+}
+
 /* Mobile Styles */
 @media only screen and (max-width: 950px) {
   .description {
